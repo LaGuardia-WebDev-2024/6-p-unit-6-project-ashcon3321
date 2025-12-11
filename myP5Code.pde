@@ -12,32 +12,39 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
-  fill(110, 127, 128);
-  ellipse(200, 130, 220, 220);
 
-  fill(213, 255, 255);
-  ellipse(200, 150, 200, 200);
-  fill(0, 0, 0,);
-  ellipse(155, 140, 75, 75);
-  ellipse(245, 140, 75, 75);
+fill(0, 0, 0);
+  rect(100, 130, 245, 180);
+
+  fill(0, 0, 139);
+  rect(110, 140, 225, 160);
+  stroke(255, 0, 0,);
+  rect(110, 140, 225, 160);
+  
 
   rect(200, 50, 100, 30);
 
-  fill(173, 216, 230);
-  ellipse(245, 140, 55, 55);
-  ellipse(155, 140, 55, 55);
+  stroke(147, 255, 232);
+  ellipse(280, 200, 90, 90);
 
-  fill(0, 0, 0);
-  ellipse(200, 195, 10, 5);
+  fill(255, 0, 0);
+  ellipse(280, 200, 90, 90);
+  ellipse(165, 200, 90, 90);
 
-  noFill();
-  arc(155, 90, 20, 20, radians(3), radians(180))
-  arc(245, 90, 20, 20, radians(3), raidans(180))
-  arc(200, 220, 10, 5, radians(3),radians(360))
+  fill(147, 255, 232);
+  triangle( 200, 150, 180, 110, 120, 120, 250);
+
+  
+
+  
 
 
 
 }
+
+
+
+  
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
