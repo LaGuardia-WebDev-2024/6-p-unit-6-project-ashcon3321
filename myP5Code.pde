@@ -12,6 +12,13 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
+  fill(224, 234, 255);
+
+  rect(205, 300, 30, 50);
+
+  fill(255, 0, 0);
+
+ellipse(220, 340, 35, 35);
 
 fill(0, 0, 0);
   rect(100, 130, 245, 180);
@@ -22,15 +29,27 @@ fill(0, 0, 0);
   stroke(255, 0, 0);
   rect(110, 140, 225, 160);
 
+//light
+  fill(96, 141, 240);
+  stroke(96, 141, 240);
+
+  beginShape();
+  vertex(111, 299)
+  vertex(185, 142)
+  vertex(207,141)
+  vertex(142, 299)
+  endShape();
+
 //hat
   fill(0, 0, 0);
+  stroke(0, 0, 0);
   triangle(150, 123, 224, 141, 292, 119, 40);
   
   beginShape();
   vertex(170, 84)
   vertex(276, 80)
   vertex(258, 118)
-  vertex(199, 118)
+  vertex(200, 125)
   endShape();
 
 //ant
@@ -40,9 +59,20 @@ fill(0, 0, 0);
   vertex(186, 44)
   vertex(196, 84)
   endShape();
-  
+
+  beginShape();
+  vertex(235, 82)
+  vertex(238, 60)
+  vertex(259, 58)
+  vertex(237, 43)
+  vertex(244, 31)
+  endShape();
+
+
   fill(255, 0, 0);
    ellipse(183, 40, 10, 10);
+   ellipse(244, 26, 10, 10);
+   ellipse( 225, 107, 8, 8);
 
   
 
@@ -100,6 +130,16 @@ fill(0, 0, 0);
    vertex(260, 267)
    vertex(265, 280)
    vertex(283, 256)
+   endShape();
+
+
+//eyebrows
+
+   stroke(0, 0, 0);
+
+   beginShape();
+   vertex(176, 147)
+   vertex(213, 169)
    endShape();
 
 
